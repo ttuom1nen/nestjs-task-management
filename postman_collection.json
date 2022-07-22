@@ -26,6 +26,26 @@
 			"response": []
 		},
 		{
+			"name": "Read task by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tasks/5572f23f-e8fa-4e95-856c-ffb6cbb2409f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks",
+						"5572f23f-e8fa-4e95-856c-ffb6cbb2409f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Create task",
 			"request": {
 				"method": "POST",

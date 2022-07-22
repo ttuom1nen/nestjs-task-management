@@ -46,6 +46,26 @@
 			"response": []
 		},
 		{
+			"name": "Delete task by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tasks/043ec882-78f3-4263-87e9-b12caa27c54e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks",
+						"043ec882-78f3-4263-87e9-b12caa27c54e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Create task",
 			"request": {
 				"method": "POST",
